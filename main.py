@@ -103,3 +103,8 @@ def choice_char_class(char_name: str) -> Character:
         approve_choice = input('Нажми (Y), чтобы подтвердить выбор, '
                                'или любую другую кнопку, '
                                'чтобы выбрать другого персонажа ').lower()
+
+
+warrior = Warrior('Кодослав')
+print(warrior)
+print(warrior.attack())
